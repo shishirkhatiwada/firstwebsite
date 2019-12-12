@@ -1,0 +1,263 @@
+/* Reset	*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* main css	*/
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Vedana, sans-serif;
+	line-height: 1.6em;
+}
+
+h1 h2 h3{
+	padding: 200px;
+}
+
+/* utility class */
+.container{
+	margin: auto;
+	padding: 0 20px;
+	overflow: auto;
+	max-width: 1100px;
+}
+
+.enjoy {
+	color: #f7c08a;
+}
+
+.lead {
+	text-size: 27px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #333;
+	padding: 13px 20px;
+	border: none;
+}
+
+.btn:hover{
+	background: #f7c08a;
+	color: #333;
+}
+.btn-light{
+	background: #f4f4f4;
+	color:#333;
+}
+
+.bg-dark{
+	background: #333;
+	color: #f4f4f4;
+}
+
+.bg-light{
+	background: #f4f4f4;
+	color: #333;
+}
+
+.bg-primary{
+	background: #f7c08a;
+	color: #333;
+}
+
+.l-heading{
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.clr {
+	clear: both;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+/* padding utility */
+.py-1{ padding: 10px; }
+.py-2{ padding: 20px; }
+.py-3{ padding: 30px; }
+
+
+/* nav-bar */
+
+#nav-bar{
+	background: #333;
+	color: #fff;
+	overflow: auto;
+}
+
+#nav-bar a{
+	color: #fff;
+
+}
+
+#nav-bar h1{
+	float: left;
+	padding-top: 20px;
+}
+
+#nav-bar ul{
+	list-style: none;
+	float: right;
+}
+
+#nav-bar ul li{
+	float: left;
+}
+
+#nav-bar ul li a{
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+#nav-bar ul li a.hover
+,#nav-bar ul li a.current{
+	background: #444; 
+	color: #f7c08a;
+}
+ /*	showcase */
+
+ #showcase{
+ 	background: url('../img/image1.jpg') no-repeat center center/cover;
+ 	height: 600px;
+ }
+
+ #showcase .showcase-content{
+ 	color: #fff;
+ 	text-align: centre;
+ 	padding-top: 160px;
+ }
+
+ #showcase .showcase-content h1{
+ 	font-size: 65px;
+ 	height: 1.6em;
+ }
+
+ #showcase .showcase-content p{
+ 	padding-bottom: 20px;
+ 	line-height: 1.7em;
+ }
+
+ /* homeinfo  */
+
+#home-info{
+	height: 400px;
+}
+
+
+#home-info .info-img{
+	float: left;
+	width: 50%;
+	background: url('../img/hotel.jpg') no-repeat;
+	min-height: 100%;
+}
+
+#home-info .info-content{
+	float: right;
+	width: 50%;
+	height:100%;
+	text-align: center;
+	padding: 50px 30px;
+	overflow: hidden;
+}
+
+#home-info .info-content p{
+	padding-bottom: 30px;
+}
+
+.box{
+	float: left;
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+}
+
+.box i{
+	margin-bottom: 20px;
+}
+
+
+/* about  */
+
+#about-info .info-right{
+	float: right;
+	width: 50%;
+	min-height: 100%;
+}
+
+#about-info .info-right img{
+	display: block;
+	margin: auto;
+	width: 95%;
+	border-radius: 50%;
+}
+
+#about-info .info-left{
+	float: left;
+	width: 50%;
+	min-height: 100%;
+}
+
+/* testimonials */
+#testimonals{
+	padding-top: 20px;
+	height: 600px;
+	background: url('../img/image1.jpg') no-repeat center center/cover;
+}
+
+#testimonals .testimonial{
+	padding: 20px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+
+
+#testimonals .testimonial img{
+	width: 90px;
+	float: left;
+	padding-right: 20px;
+	border-radius: 30%;
+}
+
+#testimonals h2{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+
+/* contact us	*/
+
+#contact-form .form-group{
+	margin-bottom: 20px;
+}
+
+#contact-form input,
+#contact-form textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px #ddd solid; 
+}
+
+#contact-form textarea{
+	height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+	outline: none;
+	border-color: #f7c08a;
+}
+
+#main-footer{
+	text-align: center;
+	background: #444;
+	color: #fff;
+	padding: 20px;
+}
